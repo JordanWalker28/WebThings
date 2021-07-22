@@ -1,6 +1,8 @@
-const bar = document.querySelector(".fa-bars")
-const menu = document.querySelector(".menu");
+document.addEventListener("DOMContentLoaded", function() {
+    const bar = document.querySelector(".fa-bars")
+    const menu = document.querySelector(".menu");
 
-bar.addEventListener("click", () => {
-    menu.classList.toggle("show-menu")
-});
+    bar.addEventListener("click", () => {
+        menu.classList.toggle("show-menu")
+    });
+  });
