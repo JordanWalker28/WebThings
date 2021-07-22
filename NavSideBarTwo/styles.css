@@ -27,10 +27,6 @@ nav {
     cursor: pointer;
 }
 
-.fa-bars:hover{
-    color: black;
-}
-
 .menu a{
     color: gray;
     letter-spacing: 0.1rem;
