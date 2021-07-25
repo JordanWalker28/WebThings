@@ -1,7 +1,7 @@
 const btn = document.querySelector(".btn");
 const video = document.querySelector(".background-video");
 const fa = document.querySelector(".fa");
-
+const preloader = document.querySelector(".preloader");
 
 btn.addEventListener("click", () => {
     if(btn.classList.contains("pause")){
@@ -16,4 +16,8 @@ btn.addEventListener("click", () => {
         fa.classList.add("fa-play")
         fa.classList.remove("fa-pause")
     }
+})
+
+window.addEventListener("load", () => {
+    preloader.style.zIndex = -2;
 })
