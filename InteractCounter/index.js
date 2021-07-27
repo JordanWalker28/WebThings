@@ -10,7 +10,11 @@ btns.forEach((btn) => {
         const styles = event.currentTarget.classList
 
         if(styles.contains("btn-danger")){
+            if(num <= 0){
+                num = 0
+            }else{
             num--;
+            }
         }else if(styles.contains("btn-success")){
             num++;
         }else{
@@ -21,8 +25,6 @@ btns.forEach((btn) => {
 
         if(num > 0){
             Value.style.color = "green"
-        }else if(num < 0){
-            Value.style.color = "red"
         }else{
             Value.style.color = "black"
         }
