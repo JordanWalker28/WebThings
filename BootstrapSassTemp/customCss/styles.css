@@ -1,0 +1,34 @@
+html,
+body{
+    height: 100%;
+    text-align: center;
+}
+
+#cover{
+    background: #222 url('../img/stars.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cover-caption{
+    width: 100%;
+}
+
+.col-sm-10 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 100%;
+}
+
+.form-inline {
+	display: inline-flex;
+}
+
+.form-control-lg{
+    margin: 5px;
+}
