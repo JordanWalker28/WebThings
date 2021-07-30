@@ -31,4 +31,8 @@ body{
 
 .form-control-lg{
     margin: 5px;
+} 
+
+.display-1{
+    font-size: 5rem;
 }
