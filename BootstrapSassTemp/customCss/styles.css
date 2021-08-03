@@ -2,7 +2,6 @@ html,
 body{
     height: 100%;
     text-align: center;
-    font-family: fantasy;
 }
 
 #cover{
@@ -36,4 +35,6 @@ body{
 
 .display-1{
     font-size: 5rem;
+    font-family: fantasy;
 }
+
